@@ -18,6 +18,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#root {
+  margin-top: 60px; /* space for ad */
 }
 
 @keyframes fadeIn {
