@@ -50,7 +50,20 @@ function App() {
   return (
     
    <div className="min-h-screen bg-gradient-to-b from-pink-300 via-purple-100 to-yellow-100 flex flex-col items-center justify-center p-6">
-      
+
+            <div id="ad-banner" style={{ textAlign: "center", background: "#f9f9f9" }}>
+          	  <script type="text/javascript">
+	atOptions = {
+		'key' : 'e7405fed77ef83a223da9074c9e095df',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script> 
+      </div>
+
+     
       {/* Animated Heading */}
       <h1 className="text-4xl md:text-6xl font-bold text-pink-600 mb-4 mt-8 animate-fadeIn text-center">
         💖 Happy Raksha Bandhan 💖
