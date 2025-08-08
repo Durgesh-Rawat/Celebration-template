@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-
+import rakhiImage from '../public/Rakshabandhan_4.webp';
 function App() {
   
     const urlParams = new URLSearchParams(window.location.search);
@@ -65,7 +65,7 @@ function App() {
       {/* Image */}
       <div className="mt-8 animate-bounceSlow">
         <img
-          src="./public/Rakshabandhan_4.webp"
+          src={rakhiImage}
           alt="Raksha Bandhan Celebration"
           className="w-72 md:w-96 rounded-xl shadow-lg"
         />
