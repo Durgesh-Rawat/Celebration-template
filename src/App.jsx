@@ -77,6 +77,7 @@ function App() {
       </p>
       <p className="mt-8 text-gray-600 text-sm animate-fadeIn">
         Share with Your ❤️ Sisters....
+        & Brothers.....
       </p>
     </div>
   )
